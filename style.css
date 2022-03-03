@@ -109,3 +109,39 @@ p {
   font-size: 20px;
   padding-top: 5px;
 }
+
+@media (max-width: 576px) {
+  .image {
+    display: none;
+  }
+  h1 {
+    font-size: 60px;
+    margin-top: 0px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+    padding: 15px;
+  }
+  .gridh1,
+  .gridh3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .about-h1 {
+    padding: 30px;
+  }
+}
